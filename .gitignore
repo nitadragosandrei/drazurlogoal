@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# TextMeshPro assets
+/[Aa]ssets/"[Tt]extMesh [Pp]ro.meta"
+/[Aa]ssets/"[Tt]extMesh [Pp]ro"/*
