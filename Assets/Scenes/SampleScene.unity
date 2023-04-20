@@ -438,6 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1329352379}
   - component: {fileID: 1329352378}
+  - component: {fileID: 1329352380}
   m_Layer: 0
   m_Name: goalpost-foreground-right
   m_TagString: Untagged
@@ -512,6 +513,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1329352380
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329352377}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 2.3091867, y: 3.41544}
+  - {x: 2.8836389, y: 3.48632}
+  - {x: 4.6320577, y: 3.722829}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1411568725
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984058372}
   - component: {fileID: 1984058371}
+  - component: {fileID: 1984058373}
   m_Layer: 0
   m_Name: goalpost-foreground-left
   m_TagString: Untagged
@@ -1011,6 +1036,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1984058373
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984058370}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 1.8104162, y: 3.5179033}
+  - {x: 4.1748514, y: 3.3129768}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &2113341182
 GameObject:
   m_ObjectHideFlags: 0
